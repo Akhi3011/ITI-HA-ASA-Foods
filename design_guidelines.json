@@ -1,0 +1,137 @@
+{
+  "brand_identity": {
+    "name": "Itihaasa Foods",
+    "sub_brands": ["Fresh Bean", "Bean & Brew"],
+    "personality": "Warm, Elegant, Boutique, Premium, Inviting",
+    "tone": "Sophisticated, Comforting, Welcoming",
+    "target_audience": "Cafe customers scanning QR codes, mobile users",
+    "context": "Digital Menu & Marketing Site"
+  },
+  "visual_design": {
+    "theme_mode": "light",
+    "colors": {
+      "primary": {
+        "espresso": "#3E2723",
+        "ivory_beige": "#FFF8E1",
+        "coffee_cream": "#D7CCC8"
+      },
+      "secondary": {
+        "warm_copper": "#BCAAA4",
+        "soft_cream": "#FFF3E0"
+      },
+      "text": {
+        "primary": "#212121",
+        "secondary": "#5D4037",
+        "inverted": "#FFFFFF"
+      },
+      "background": {
+        "main": "#FFF8E1",
+        "card": "#FFFFFF",
+        "accent": "#F5EFE6"
+      },
+      "status": {
+        "success": "#558B2F",
+        "error": "#C62828",
+        "warning": "#EF6C00"
+      }
+    },
+    "typography": {
+      "headings": {
+        "family": "\"Playfair Display\", serif",
+        "weights": ["400", "700"],
+        "usage": "All section titles, hero text, product names"
+      },
+      "body": {
+        "family": "\"Lato\", sans-serif",
+        "weights": ["400", "700"],
+        "usage": "Descriptions, prices, navigation, buttons"
+      }
+    },
+    "spacing": {
+      "scale": "tailwind",
+      "base_padding": "p-6",
+      "section_gap": "gap-12",
+      "container_padding": "px-4 md:px-8 lg:px-16"
+    },
+    "effects": {
+      "shadows": {
+        "card": "0 4px 20px -2px rgba(62, 39, 35, 0.1)",
+        "hover": "0 10px 25px -5px rgba(62, 39, 35, 0.15)",
+        "floating": "0 20px 40px -5px rgba(62, 39, 35, 0.2)"
+      },
+      "radius": {
+        "card": "rounded-xl",
+        "button": "rounded-full"
+      }
+    }
+  },
+  "layout_strategy": {
+    "type": "mobile_first",
+    "grid_system": {
+      "mobile": "grid-cols-1",
+      "tablet": "grid-cols-2",
+      "desktop": "grid-cols-3 lg:grid-cols-4"
+    },
+    "navigation": {
+      "style": "sticky_pill_bar",
+      "location": "top_below_hero"
+    }
+  },
+  "components": {
+    "hero": {
+      "type": "immersive_image",
+      "overlay": "gradient-to-t from-[#3E2723]/80 to-transparent",
+      "content_alignment": "center"
+    },
+    "menu_card": {
+      "style": "minimalist_elegant",
+      "layout": "image_top_or_left",
+      "price_style": "bold_espresso",
+      "interaction": "modal_popup_on_click"
+    },
+    "buttons": {
+      "primary": "bg-[#3E2723] text-[#FFF8E1] hover:bg-[#5D4037] transition-all duration-300",
+      "secondary": "border-2 border-[#3E2723] text-[#3E2723] hover:bg-[#3E2723] hover:text-[#FFF8E1] transition-all duration-300",
+      "floating_action": "fixed bottom-6 right-6 z-50 shadow-xl"
+    }
+  },
+  "assets": {
+    "images": {
+      "hero_bg": "https://images.unsplash.com/photo-1767785445908-e557ce09a0ea?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHw0fHxsYXR0ZSUyMGFydCUyMGNvZmZlZSUyMGN1cCUyMG9uJTIwd29vZGVuJTIwdGFibGUlMjB3YXJtJTIwY296eXxlbnwwfHx8fDE3NzE2MDU0MjZ8MA&ixlib=rb-4.1.0&q=85",
+      "about_interior": "https://images.pexels.com/photos/34711923/pexels-photo-34711923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "categories": {
+        "coffee": "https://images.unsplash.com/photo-1758180447681-970a25db7d98?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwyfHxsYXR0ZSUyMGFydCUyMGNvZmZlZSUyMGN1cCUyMG9uJTIwd29vZGVuJTIwdGFibGUlMjB3YXJtJTIwY296eXxlbnwwfHx8fDE3NzE2MDU0MjZ8MA&ixlib=rb-4.1.0&q=85",
+        "iced_coffee": "https://images.pexels.com/photos/6767147/pexels-photo-6767147.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "tea": "https://images.pexels.com/photos/905485/pexels-photo-905485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "sandwiches": "https://images.unsplash.com/photo-1767034235859-d656cd447242?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxNzV8MHwxfHNlYXJjaHw0fHxnb3VybWV0JTIwc2FuZHdpY2glMjBvbiUyMHBsYXRlJTIwY2FmZSUyMHNldHRpbmd8ZW58MHx8fHwxNzcxNjA1NDI3fDA&ixlib=rb-4.1.0&q=85",
+        "burger": "https://images.pexels.com/photos/12420469/pexels-photo-12420469.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "pastries": "https://images.unsplash.com/photo-1705471993878-38697f37d550?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzOTB8MHwxfHNlYXJjaHwzfHxkZWxpY2lvdXMlMjBjaG9jb2xhdGUlMjBjYWtlJTIwc2xpY2UlMjBvbiUyMHBsYXRlfGVufDB8fHx8MTc3MTYwNTQzNnww&ixlib=rb-4.1.0&q=85",
+        "milkshakes": "https://images.pexels.com/photos/28525200/pexels-photo-28525200.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      }
+    },
+    "icons": {
+      "library": "lucide-react",
+      "style": "stroke-1"
+    }
+  },
+  "instructions_to_main_agent": [
+    "Install 'framer-motion' for smooth entrance animations.",
+    "Use 'Playfair Display' from Google Fonts via simple import in index.css.",
+    "Ensure the layout is perfectly responsive on mobile (375px width).",
+    "Implement a 'Sticky Category Nav' that slides horizontally on mobile.",
+    "The 'Menu' page should be the main focus after the hero section.",
+    "Use the provided colors strictly - do not use default black/white.",
+    "For the 'About Us' section, place it at the bottom with the interior image.",
+    "Create a 'DigitalMenu' component that filters items by category.",
+    "Use 'sonner' for any toast notifications (e.g., 'Added to cart' - simulation only).",
+    "Ensure high contrast between text and background as per accessibility rules.",
+    "Add 'data-testid' to all interactive elements."
+  ],
+  "universal_guidelines": [
+    "Avoid generic centered layouts; use asymmetry where possible.",
+    "Micro-animations on hover/tap are mandatory.",
+    "Use generous padding (py-16, py-24) to create a premium feel.",
+    "No gradients on text.",
+    "Images should have a subtle warm overlay if they are too cool/blue."
+  ]
+}
