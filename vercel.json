@@ -1,13 +1,6 @@
 {
-  "version": 2,
-  "buildCommand": "cd frontend && npm install && npm run build",
-  "outputDirectory": "frontend/build",
-  "devCommand": "cd frontend && npm start",
-  "installCommand": "cd frontend && npm install",
-  "framework": "create-react-app",
-  "regions": ["bom1"],
-  "github": {
-    "enabled": true,
-    "autoAlias": true
-  }
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "installCommand": "npm install",
+  "framework": "create-react-app"
 }
