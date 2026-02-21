@@ -40,8 +40,8 @@ const Navigation = () => {
             onClick={() => scrollToSection('hero')}
             data-testid="nav-logo"
           >
-            <span className="text-[#FFF8E1] font-['Playfair_Display'] text-2xl font-bold">
-              Itihaasa Foods
+            <span className="text-[#FFF8E1] font-['Playfair_Display'] text-xl sm:text-2xl font-bold">
+              ITI HA ASA Foods
             </span>
           </motion.div>
 
@@ -96,7 +96,7 @@ const Navigation = () => {
               className="block w-full text-left text-[#FFF8E1] hover:text-[#D7CCC8] py-2 font-['Lato']"
               data-testid="mobile-about-link"
             >
-              About
+              About Us
             </button>
           </div>
         </motion.div>
